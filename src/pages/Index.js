@@ -17,12 +17,12 @@ const Index = () => (
           </p>
         </div>
       </header>
-      <p> Welcome to my website. Please feel free to check out my <Link to="/resume">resume</Link>, {' '}
+      <p> Welcome to my website. Please feel free to check out my <Link to="/resume">resume</Link> {' '}
         {/* Please feel free to read more <Link to="/about">about me</Link>, */}
         {/* or you can check out my {' '} */}
         {/* <Link to="/projects">projects</Link>, {' '} */}
-        view <Link to="/stats">site statistics</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
+        {/* view <Link to="/stats">site statistics</Link>, {' '} */}
+        or <Link to="/contact">contact  me</Link>.
       </p>
       <p> Source available <a href="https://github.com/jimmyhiggs337/resume-site">here</a>.</p>
     </article>
