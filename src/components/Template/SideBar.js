@@ -12,29 +12,53 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
-        <p><a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a></p>
+        <h2>James Higginbotham IV</h2>
+        <p>
+          <a href="mailto:jimmyhiggs337@gmail.com">jimmyhiggs337@gmail.com</a>
+        </p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni,
-        and the VP of Engineering at <a href="https://smileidentity.com">Smile Identity</a>. Previously,
-        I was the co-founder and CTO of <a href="https://arthena.com">Arthena</a>
-        , co-founder of <a href="https://matroid.com">Matroid</a>, and worked at
-        {' '}<a href="https://planet.com">Planet</a> and <a href="https://facebook.com">Facebook</a>.
+      <p>
+        Hi, I&apos;m Jimmy. I am a{' '}
+        <a href="https://computing.louisiana.edu/informatics">
+          University of Louisiana At Lafayette Informatics
+        </a>{' '}
+        graduate.
+      </p>
+      <p>
+        I have experience leading development on a project at a
+        larger company as well as working as a full stack mid level developer on
+        a small team where I was expected to &quot;wear many hats&quot;.
+      </p>
+      <p>
+        I&apos;m easy going and friendly and I enjoy working with
+        others. I&apos;m always ready to buckle down and put in extra hours for a
+        project; I find that seeing a project come to fruition is incredibly
+        satisfying.
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {!window.location.pathname.includes('/resume') ? (
+            <Link to="/resume" className="button">
+              Learn More
+            </Link>
+          ) : (
+            <Link to="/about" className="button">
+              About Me
+            </Link>
+          )}
         </li>
       </ul>
     </section>
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">
+        &copy; James Higginbotham IV <Link to="/">profile.jimmyserv.com</Link>.
+      </p>
     </section>
   </section>
 );

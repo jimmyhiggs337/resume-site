@@ -13,156 +13,68 @@
  */
 const work = [
   {
-    name: 'Smile Identity',
-    position: 'VP Engineering & Head of AI',
-    url: 'https://smileidentity.com',
-    startDate: '2022-01-01',
-    summary: `Smile builds machine learning APIs to compare user submitted photos to ID documents. Our APIs are
-    used by hundreds of thousands of people every day to access financial services. As VP of Engineering,
-    I provide technical leadership on high-impact projects, influence and coach a distributed team of engineers,
-    and facilitate alignment and clarity across teams on goals, outcomes, and timelines. I was promoted
-    from Director of Engineering to VP of Engineering in April 2022, and then to VP of Engineering and Head
-    of AI in November 2022. I lead a 20+ person engineering org. I directly manage ~8 engineers and spend
-    >50% of my time writing code.`,
+    name: 'Bellwether Technology Company (Sophia App)',
+    position: 'Software Engineer II',
+    url: 'https://www.belltec.com/',
+    startDate: '2022-04-01',
+    endDate: '2024-03-14',
+    summary: `Sophia App: Sophia was created as a collaboration among Bellwether Technology Corporation, VIA LINK Inc.,
+    and the United Way Association of South Carolina to address the need for a better technology solution for I&R service providers. 
+    As their existing I&R software struggled to keep up with their evolving requirements, VIA LINK and UWASC each sought an answer. 
+    They knew they needed an application that was specifically designed for their purposes and would adapt quickly to new developments. 
+    It was clear that such a solution was not readily available and that building one was a significant undertaking with no guarantee of success.
+    Having been involved in various capacities with 211s for well over a decade, 
+    Bellwether understood the enormous potential for a software application that would amplify the positive impact that I&R has on the world. As a long-established and successful managed IT and cybersecurity services company, 
+    Bellwether also understood that getting the most from technology is as much about people as it is about machines and software.
+    Discussions among executive leadership at the three organizations led to a tight collaboration to design and build a new solution, with each member bringing their unique perspective and expertise to the partnership. 
+    The result is Sophia: a modern I&R solution guided by VIA LINK’s and UWASC’s vision and propelled by Bellwether’s 40+ years of technical leadership and customer service excellence.
+    `,
     highlights: [
-      'Redesigned engineering processes for bug tracking, meetings, and standups. Improved culture for code reviews, blameless post-mortems, and retrospectives.',
-      'Re-architected engineering hiring and onboarding processes. Recruited several strong engineers.',
-      'Reorged engineering teams to focus on product delivery. Created a new team to focus on ML infrastructure.',
-      'Lead re-design of internal APIs for inference. Built new computer vision pipelines for industry leading certifications (NIST/iBeta liveness).',
-      'Pitched, designed, developed, deployed, and maintain a fraud detection product based on 1-N facial recognition using embeddings and vector search.',
+      'Designed and  Implemented new features by creating front-end components and backend functionality, including UI elements and full web pages, data structures, API connections, etc.',
+      'Created comprehensive project documentation, including onboarding guides for new developers and clients, establishing development environment, and more',
+      'Contributed to the development and management of a CI/CD pipeline for deploying the web application as a Single Page Application (SPA) on Azure',
+      'Provided support for multiple existing legacy apps, including but not limited to addressing user-reported errors, optimizing code, patching security vulnerabilities, updating documentation, and overseeing app migrations to Azure hosted VMs and modern hardware',
     ],
   },
   {
-    name: 'Skeptical Investments',
-    position: 'Co-founder',
-    url: 'http://skepticalinvestments.biz',
-    startDate: '2017-04-01',
-    summary: `Skeptical Investments is a micro-vc fund focused on Angel, Seed, and Series-A
-    YC companies.`,
+    name: 'CGI',
+    position: 'Lead UI Developer',
+    url: 'https://www.cgi.com/en',
+    startDate: '2021-04-01',
+    endDate: '2022-04-01',
+    summary: 'CGI Inc. is a Canadian multinational information technology consulting and Software Development company headquartered in Montreal, Quebec, Canada.',
     highlights: [
-      'Created the InstaSafe. Fast, automated investment docs for YC companies.',
-      'Advise several startups in the fund.',
+      'Conducted interviews and provided training for new development team members',
+      'Led the development of a new UI (Angular) for an AI-backed platform capable of handling multiple users and designed public and private APIs',
+      'Oversaw and orchestrated the organization and migration of code into Gitlab, and created production and pre-production environments along with developing a CI/CD pipeline',
+      'Coordinated with solutions architect to update infrastructure documentation',
     ],
   },
   {
-    name: 'Arthena',
-    position: 'Co-founder & C.T.O.',
-    url: 'https://arthena.com',
-    startDate: '2014-01-01',
-    endDate: '2022-01-01',
-    summary: `Arthena is a Series A Company funded by <a href="https://www.anthemis.com/">Athemis</a>,
-    <a href="https://foundationcapital.com">Foundation Capital</a>, and <a href="https://ycombinator.com/">YC</a>.
-    We develop quantitative strategies to predict the value of fine art and build investment products.
-    I ran a 20-person product and engineering org for 8 years. We were acquired by
-    <a href="https://www.masterworks.com/">Masterworks</a> in 2023.`,
+    name: 'CGI',
+    position: 'Software Developer',
+    url: 'https://www.cgi.com/en',
+    startDate: '2020-01-01',
+    endDate: '2021-04-01',
+    summary: 'CGI Inc. is a Canadian multinational information technology consulting and Software Development company headquartered in Montreal, Quebec, Canada.',
     highlights: [
-      'Built production, online, end-to-end optimized machine learning pipelines for time-series prediction.',
-      'Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting, deployment, and reporting.',
-      "Set and communicated team priorities that supported the broader organization's goals. Aligned strategy, processes, and decision-making across teams.",
-      "Set clear expectations with individuals based on their level and role and aligned them to the broader organization's goals. Met regularly with individuals to discuss performance and development, and provided feedback and coaching.",
-      'Developed the long-term technical vision and roadmap within, and often beyond, the scope of my teams. Evolved the roadmap to meet anticipated future requirements and infrastructure needs.',
+      'Oversaw code base for importing, organizing, and categorizing extensive healthcare data into a machine learning supported healthcare database on a repeated and large scale basis for a healthcare company data project utilizing hadoop/hive, HQL, and Java/Scala.',
+      'Created a custom solution for gathering and structuring census data from the census.gov API using Python and R.',
+      'Referenced and extracted pertinent healthcare data, such as COVID-19 data, to populate smaller databases utilized by both internal and external company software and web applications.',
     ],
   },
   {
-    name: 'Enveritas',
-    position: 'ML Engineering Contractor',
-    url: 'http://enveritas.org',
-    startDate: '2016-09-01',
-    endDate: '2018-01-01',
-    summary: `Enveritas is a non-profit that works with coffee farmers to improve their livelihoods.
-    I joined on day one and helped build a variety of tools to collect and analyze data. I also advised
-    on technical strategy, helped hire engineers, and advised on their YC application.`,
+    name: 'Lafayette Utilities System',
+    position: 'Engineering Aide I (Jr. Sys Admin)',
+    url: 'https://www.lus.org/',
+    startDate: '2014-08-01',
+    endDate: '2020-01-01',
+    summary: 'LUS is publicly owned utilities system that provide high-quality, competitively priced services that exceed customers’ expectations, and contributes to the Lafayette Consolidated Government to support other community needs.',
     highlights: [
-      'Trained a model for the Brazilian Coffee Scenes Dataset with better than state of the art accuracy.',
-      'Collected training sets on the ground in Uganda. Built dashboards to visualize work of surveyors using Flask, React, and D3.',
-      'Performed supporting analysis to ensure data integrity using Pandas, t-SNE, SVM\'s, and other techniques.',
-    ],
-  },
-  {
-    name: 'Zenysis',
-    position: 'Software Engineering Contractor',
-    url: 'https://zenysis.com',
-    startDate: '2016-02-01',
-    endDate: '2016-03-01',
-    summary: `Zenysis develops data analysis and visualization tools for government agencies and international organizations.
-    Their solutions help improve decision-making by integrating and analyzing large-scale datasets from various sources.
-    I was the second contributor to the codebase. We built data visualization tools and tackled complex data ingestion
-    challenges for the Ethiopian Ministry of Health.`,
-    highlights: [
-      'Worked in Addis Ababa for the Ethiopian Ministry of Health and built data visualization tools in React and Flask.',
-      'Ingested multiple databases with different alphabets, calendars, and without official spellings of geographic locations.',
-    ],
-  },
-  {
-    name: 'Matroid',
-    position: 'Co-founder',
-    url: 'https://matroid.com',
-    startDate: '2015-07-01',
-    endDate: '2016-01-01',
-    summary: `Matroid is a computer vision platform for creating and deploying detectors. Detectors help customers identify objects,
-    events, or patterns in images and videos without requiring machine learning or coding expertise. I played a crucial role in
-    defining the company's vision. I was responsible for architecting and building the initial product. I left shortly after the
-    Series A to focus on Arthena.`,
-    highlights: [
-      'Developed end to end machine learning pipeline to train visual classifiers from keywords using Caffe, Node.JS, Redis, MongoDB, and other technologies.',
-    ],
-  },
-  {
-    name: 'Planet',
-    position: 'Missions Intern',
-    url: 'https://planet.com',
-    startDate: '2014-06-01',
-    endDate: '2015-01-01',
-    highlights: [
-      'Built models to improve image quality, signal to noise ratio, and dynamic range.',
-      'Performed statistical analysis of image quality in Matlab and Python.  Developed flight software in C++.',
-      'Organized first hackathon, prototyped hardware, and designed and built photography equipment for rocket launches.',
-    ],
-  },
-  {
-    name: 'Planetary Resources',
-    position: 'Avionics Intern',
-    startDate: '2014-01-01',
-    endDate: '2014-05-01',
-    url: 'http://planetaryresources.com',
-    highlights: [
-      'Developed simulations in Matlab for Attitude Determination and Control Subsystem.',
-      'Developed processes for in lab testing and characterization of various subsystems.',
-      'Assembled flight hardware in cleanroom.',
-    ],
-  },
-  {
-    name: 'Facebook',
-    position: 'Software Engineer Intern',
-    url: 'https://facebook.com',
-    startDate: '2013-06-01',
-    endDate: '2013-09-01',
-    highlights: [
-      'Developed software in python for automated testing of servers.',
-      'Performed statistical analysis with R, HIVE to assist in triage of malfunctioning servers.',
-      'Worked with vendors and ODM\'s during triage to assist in risk mitigation.',
-    ],
-  },
-  {
-    name: 'SEDS-USA',
-    position: 'At Large Board Member',
-    url: 'http://seds.org',
-    startDate: '2013-10-01',
-    endDate: '2014-10-01',
-    highlights: [
-      'Elected to Board of Directors of the USA\'s largest student space advocacy group based on 5+ years of work with SEDS.',
-      'Responsibilities included: organizational strategy, conference presentations, fundraising, special projects, promoting SEDS nationally and internationally, and photographing conferences.',
-    ],
-  },
-  {
-    name: 'UB Nanosatellite Program',
-    position: 'Co-founder, Program Manager',
-    url: 'https://ubnl.space/',
-    startDate: '2010-10-01',
-    endDate: '2012-06-01',
-    highlights: [
-      'Coauthored grant to build a multi-spectral imaging satellite as part of the AFRL University Nanosatellite Program.',
-      'Lead a team of 60 students through satellite development life cycle. Served as a technical expert, acquired intimate working knowledge of satellite subsystems.  Solicited funding through NASA, AFOSR, and several corporate sponsors.',
+      'Collaborated closely with System/Network Administrator to manage and support various applications including Active Directory, Microsoft Exchange, Microsoft Configuration Manager, and Cisco Call Manager on a daily basis',
+      ' Diagnosed, troubleshot, and resolved hardware, software, and network/system issues; replaced defective components when necessary and maintained detailed records of all troubleshooting activities in ticketing system and SQL-backed database',
+      'Configured and tested networking and client computer hardware, networking software, and operating systems; ensured seamless connections between each',
+      'Implemented network security measures to safeguard data, software, and hardware',
     ],
   },
 ];
