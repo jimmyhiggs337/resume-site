@@ -46,9 +46,10 @@ const SideBar = () => (
               Learn More
             </Link>
           ) : (
-            <Link to="/about" className="button">
-              About Me
-            </Link>
+            // <Link to="/about" className="button">
+            //   About Me
+            // </Link>
+            ''
           )}
         </li>
       </ul>
