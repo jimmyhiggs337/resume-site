@@ -14,7 +14,7 @@
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js",
     "build": "rimraf ./build && react-scripts build",
     "lint": "eslint \"**/*.js\"",
-    "predeploy": "npm run build && serve -s build",
+    "predeploy": "npm run build && react-snap",
     "start": "react-scripts start",
     "test": "npx jest"
   },
@@ -32,8 +32,7 @@
     "react-ga": "^3.3.1",
     "react-helmet-async": "^2.0.4",
     "react-router-dom": "^6.22.3",
-    "react-scripts": "^5.0.1",
-    "serve": "^14.2.6"
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.23.10",
