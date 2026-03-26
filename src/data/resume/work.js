@@ -13,6 +13,20 @@
  */
 const work = [
   {
+    name: 'Comcast Advertising Billing team; Contract Worker to Full Time',
+    position: 'Junior Fullstack Developer (Contract) to Software Engineer II (Full Time)',
+    url: 'https://www.belltec.com/',
+    startDate: '2024-11-01',
+    endDate: 'Present',
+    summary: 'Comcast advertising manages all advertisements, impressions, billing, and payments for advertisers working with comcast, The billing team managed the apps that allowed advertisers to view, manage, and pay their bills and impressions, as well as the apps used by Comcast Advertising team members to manage advertiser accounts and bills',
+    highlights: [
+      'Managing and optimizing existing and new database connections for mass amounts of data in Comcast Advertising’s financial/billing systems in SAP and SQL.',
+      'Creating, maintaining, and updating UI elements in SAP for use by users to access Comcast Advertising’s financial/billing system data.',
+      'Utilizing and creating api connections to and from SAP for existing and new apps via Mulesoft.',
+      'Managing and updating legacy .NET apps related to multiple parts of Comcast Advertising’s financial/billing systems, and creating and modifying the SQL databases and connections to the databases utilized by the legacy apps and api connections to SAP.',
+    ],
+  },
+  {
     name: 'Bellwether Technology Company (Sophia App)',
     position: 'Software Engineer II',
     url: 'https://www.belltec.com/',
